@@ -1,4 +1,5 @@
 import { Route, Routes } from "react-router-dom";
+import { Toaster  } from "react-hot-toast";
 import React from "react";
 
 import LoginPage from "./pages/LoginPage";
@@ -26,6 +27,7 @@ function App() {
             <Route path= '/likes' element = {<LikesPage/>} />
           </Routes>
            
+           <Toaster />
         </div>
       </div>
   );
