@@ -11,8 +11,7 @@ The **MERN GitHub App** is a **full-stack web application** that allows users to
 ✅ **View Repositories** – Display a list of public repositories  
 ✅ **View Repository Details** – Get information on stars, forks, and languages used  
 ✅ **Bookmark Profiles** – Save favorite profiles for quick access  
-✅ **Pagination Support** – Load more repositories seamlessly  
-✅ **Dark Mode** – Switch between light and dark themes  
+
 
 ## 🛠️ Tech Stack  
 ### **Frontend:**
