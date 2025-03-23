@@ -12,18 +12,6 @@ The **MERN GitHub App** is a **full-stack web application** that allows users to
 ✅ **View Repository Details** – Get information on stars, forks, and languages used  
 ✅ **Bookmark Profiles** – Save favorite profiles for quick access  
 
-## ⚡ Major Challenges Faced  
-### ❌ **Handling GitHub API Rate Limits**  
-- **Issue:** Limited API calls without authentication.
-- **Solution:** Implemented OAuth and API keys for increased request limits.
-
-### ❌ **Efficient Data Fetching & Pagination**  
-- **Issue:** Loading large amounts of repositories slowed performance.
-- **Solution:** Implemented **pagination** and **lazy loading**.
-
-### ❌ **Managing Bookmarks Without Database Load**  
-- **Issue:** Storing user preferences efficiently.
-- **Solution:** Used **localStorage** for quick access without extra database queries.
 
 ## 🛠️ Tech Stack  
 ### **Frontend:**
@@ -45,6 +33,19 @@ The **MERN GitHub App** is a **full-stack web application** that allows users to
 <p>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="50" alt="GitHub API"/>
 </p>
+
+## ⚡ Major Challenges Faced  
+### ❌ **Handling GitHub API Rate Limits**  
+- **Issue:** Limited API calls without authentication.
+- **Solution:** Implemented OAuth and API keys for increased request limits.
+
+### ❌ **Efficient Data Fetching & Pagination**  
+- **Issue:** Loading large amounts of repositories slowed performance.
+- **Solution:** Implemented **pagination** and **lazy loading**.
+
+### ❌ **Managing Bookmarks Without Database Load**  
+- **Issue:** Storing user preferences efficiently.
+- **Solution:** Used **localStorage** for quick access without extra database queries.
 
 ## 📷 Screenshots  
 ### 🔹 User Search Page  
